@@ -16,18 +16,7 @@ logging.info(f"Creating project by name: {project_name}")
 
 # list of files:
 list_of_files = [
-    ".github/workflows/.gitkeep",
-    f"src/{project_name}/__init__.py",
-    f"tests/__init__.py",
-    f"tests/unit/__init__.py",
-    f"tests/integration/__init__.py",
-    "init_setup.sh",    # Creates repo for basic environment setup
-    "requirements.txt",
-    "requirements_dev.txt",
-    "setup.py",
-    "pyproject.toml",
-    "setup.cfg",
-    "tox.ini"           # helps testing in multiple environments
+    f"src/{project_name}/__init__.py"
 ]
 
 for filepath in list_of_files:
